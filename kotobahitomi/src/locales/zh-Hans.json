@@ -1,0 +1,53 @@
+{
+  "settings": "设置",
+  "languageSetting": "语言设置",
+  "thinking": "思考中...",
+  "groupDiscussion": "多体讨论",
+  "welcome": {
+    "title": "测试样例",
+    "subtitle": "版本: 1.4",
+    "smartParallelBtn": "智能并行",
+    "startBtn": "多体讨论",
+    "quickChatBtn": "分体聊天"
+  },
+  "modes": {
+    "soul": "心灵空间",
+    "correction": "语言纠错",
+    "misheard": "空耳查询",
+    "stem": "科学世界",
+    "culture": "文化探索",
+    "dialect": "方言探索",
+    "super-translate": "翻译大师",
+    "game-misheard": "空耳挑战",
+    "game-word": "字音快对",
+    "dream-weaver": "梦境编织",
+    "fantasy-master": "幻想世界",
+    "glitch-space": "失控空间",
+    "ln-factory": "小说工厂",
+    "proto-jin": "言灵世界",
+    "self-splitter": "拆解空间",
+    "unconscious": "潜灵空间"
+  },
+    "smartParallel": "智能并行",
+  "smartParallelAgents": "已选择 {count} 个智能体",
+  "baseChat": {
+    "history": "历史",
+    "session": "会话",
+    "customBg": "自定义背景",
+    "customColor": "自定义颜色",
+    "restoreBg": "恢复默认"
+  },
+  "modals": {
+    "help": {
+      "title": "说明",
+      "tabs": {
+        "manual": "使用手册",
+        "feedback": "开发感想"
+      }
+    },
+    "download": {
+      "title": "应用下载",
+      "android": "下载Android版"
+    }
+  }
+}

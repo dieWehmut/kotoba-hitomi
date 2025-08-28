@@ -1,0 +1,53 @@
+{
+  "settings": "Settings",
+  "languageSetting": "Language Settings",
+  "thinking": "Thinking...",
+  "groupDiscussion": "Multi-agent Discussion",
+  "welcome": {
+    "title": "Test case",
+    "subtitle": "Version:1.4",
+    "smartParallelBtn": "Smart Parallel",
+    "startBtn": "Multi-agent Discussion",
+    "quickChatBtn": "Split Chat"
+  },
+    "smartParallel": "Smart Parallel Chat",
+  "smartParallelAgents": "{count} Agents Selected",
+  "modes": {
+    "soul": "Soul Space",
+    "correction": "Language Correction",
+    "misheard": "Misheard Lookup",
+    "stem": "Science World",
+    "culture": "Cultural Exploration",
+    "dialect": "Dialect Exploration",
+    "super-translate": "Translation Master",
+    "game-misheard": "Misheard Challenge",
+    "game-word": "Quick Word Match",
+    "dream-weaver": "Dream Weaver",
+    "fantasy-master": "Fantasy Realm",
+    "glitch-space": "Glitch Space",
+    "ln-factory": "Novel Factory",
+    "proto-jin": "Kotodama World",
+    "self-splitter": "Splitting Space",
+    "unconscious": "Unconscious Realm"
+  },
+  "baseChat": {
+    "history": "History",
+    "session": "Session",
+    "customBg": "Custom Background",
+    "customColor": "Custom Color",
+    "restoreBg": "Restore Default"
+  },
+  "modals": {
+    "help": {
+      "title": "Help",
+      "tabs": {
+        "manual": "User Guide",
+        "feedback": "Developer Notes"
+      }
+    },
+    "download": {
+      "title": "App Download",
+      "android": "Download Android Version"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>kotobahitomi</title>
+    <link rel="icon" href="/kotobahitomi.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- MathJax 配置 -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [['$','$'], ['\\(','\\)']],  // 识别行内公式
+          displayMath: [['$$','$$'], ['\\[','\\]']], // 识别块级公式
+          processEscapes: true, // 允许使用反斜杠转义
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // 跳过不需要解析的标签
+        },
+        messageStyle: "none" // 隐藏加载提示
+      });
+    </script>
+    <!-- 加载 MathJax 库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
+
+    <!-- Marked 库（用于 Markdown 解析） -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

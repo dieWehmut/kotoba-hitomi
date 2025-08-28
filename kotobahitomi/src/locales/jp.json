@@ -1,0 +1,53 @@
+{
+  "settings": "設定",
+  "languageSetting": "言語設定",
+"thinking": "考え中…",
+  "groupDiscussion": "多体ディスカッション",
+  "welcome": {
+    "title": "テストケース",
+    "subtitle": "バージョン: 1.4",
+    "smartParallelBtn": "スマート並行",
+    "startBtn": "多体ディスカッション",
+    "quickChatBtn": "分割チャット"
+  },
+  "modes": {
+    "soul": "心の空間",
+    "correction": "言語訂正",
+    "misheard": "空耳検索",
+    "stem": "科学の世界",
+    "culture": "文化探索",
+    "dialect": "方言探索",
+    "super-translate": "翻訳マスター",
+    "game-misheard": "空耳チャレンジ",
+    "game-word": "音文字クイズ",
+    "dream-weaver": "ドリームウィーバー",
+    "fantasy-master": "ファンタジー世界",
+    "glitch-space": "グリッチ空間",
+    "ln-factory": "小説工房",
+    "proto-jin": "言霊ワールド",
+    "self-splitter": "分割空間",
+    "unconscious": "潜在領域"
+  },
+    "smartParallel": "スマート並列チャット",
+  "smartParallelAgents": "{count}体のエージェントを選択",
+  "baseChat": {
+    "history": "履歴",
+    "session": "セッション",
+    "customBg": "カスタム背景",
+    "customColor": "カスタムカラー",
+    "restoreBg": "デフォルトに戻す"
+  },
+  "modals": {
+    "help": {
+      "title": "説明",
+      "tabs": {
+        "manual": "使用マニュアル",
+        "feedback": "開発の感想"
+      }
+    },
+    "download": {
+      "title": "アプリダウンロード",
+      "android": "Android版をダウンロード"
+    }
+  }
+}
