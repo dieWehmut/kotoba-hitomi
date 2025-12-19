@@ -1,0 +1,33 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Capacitor / Android
+kotobahitomi/node_modules/@capacitor/android/capacitor/build/
+kotobahitomi/node_modules/@capacitor/android/capacitor/.classpath
+kotobahitomi/node_modules/@capacitor/android/capacitor/.project
+kotobahitomi/node_modules/@capacitor/android/capacitor/.settings/
+
+# Android / Gradle
+**/.gradle/
+**/build/
+**/*.dex
+
+# Python
+__pycache__/
+*.pyc
+pip/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backend (Node)
+backend/node_modules/
+
+# Frontend build output
+kotobahitomi/dist/
+
