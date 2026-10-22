@@ -9,9 +9,9 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "./src/assets"),
     },
   },
-  //base: "/kotobahitomi/",
-  //base:"./",
-  base: "/testCase/",
+  // Deployed to GitHub Pages at https://dieWehmut.github.io/kotoba-hitomi/
+  // The trailing slash is required so that asset URLs resolve under the project subpath.
+  base: "/kotoba-hitomi/",
   optimizeDeps: {
     include: ["**/*.json"],
   },

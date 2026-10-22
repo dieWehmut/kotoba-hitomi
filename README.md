@@ -76,6 +76,16 @@ npx cap open android
 - 后端环境变量请参考 `backend/.env` 文件。
 - 前端多语言资源位于 `kotobahitomi/src/locales/`。
 
+## Live demo / 在线演示
+
+- 站点地址：<https://dieWehmut.github.io/kotoba-hitomi/>
+- 部署方式：GitHub Actions 自动构建并发布到 GitHub Pages，推送 `main` 分支即触发
+  [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)
+  （`configure-pages` → `upload-pages-artifact` → `deploy-pages`）。
+- 构建目录为 `kotobahitomi/`，产物为 `kotobahitomi/dist`。Vite 的 `base` 已设为 `/kotoba-hitomi/`，
+  路由使用 `createWebHashHistory`（hash 路由），因此深链接无需 404 回退页。
+- 本地复现线上构建：`cd kotobahitomi && npm ci && npm run build`。
+
 ## 贡献
 
 欢迎提交 issue 和 PR！
